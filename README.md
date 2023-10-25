@@ -4,4 +4,4 @@
 - Body Mass Index calculator app inspired design by Daniel Panovec on Dribbble.
 - Link: https://dribbble.com/shots/6463749-BMI-Calculator
 
-![Screen Recording 2023-10-25 at 19 01 14](https://github.com/GosutoDev/BMICalculator-SwiftUI/assets/130918563/b57f49d8-c862-435b-9265-ad51de648061)
+![Screen%20Recording%202023-10-25%20at%2019 01 14](https://github.com/GosutoDev/BMICalculator-SwiftUI/assets/130918563/104f9c26-ae4a-4973-991c-f0c77183b53c)
