@@ -7,18 +7,16 @@
 
 import SwiftUI
 
+// Need height and weight to calculate BMI
+// BMI = weight / (height * height)
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        BMICalculator()
     }
 }
 
 #Preview {
     ContentView()
+        .preferredColorScheme(.light)
 }

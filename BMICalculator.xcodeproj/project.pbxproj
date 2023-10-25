@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84771D12AE933BC0031E553 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84771D02AE933BC0031E553 /* Color.swift */; };
 		A86366EC2AE82A62002D7F14 /* BMICalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86366EB2AE82A62002D7F14 /* BMICalculatorApp.swift */; };
 		A86366EE2AE82A62002D7F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86366ED2AE82A62002D7F14 /* ContentView.swift */; };
 		A86366F02AE82A63002D7F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86366EF2AE82A63002D7F14 /* Assets.xcassets */; };
@@ -14,6 +15,12 @@
 		A86366FD2AE82A63002D7F14 /* BMICalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86366FC2AE82A63002D7F14 /* BMICalculatorTests.swift */; };
 		A86367072AE82A63002D7F14 /* BMICalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86367062AE82A63002D7F14 /* BMICalculatorUITests.swift */; };
 		A86367092AE82A63002D7F14 /* BMICalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86367082AE82A63002D7F14 /* BMICalculatorUITestsLaunchTests.swift */; };
+		A87141F12AE90ED40065C218 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87141F02AE90ED40065C218 /* CustomSlider.swift */; };
+		A898FA112AE93ADC003AA2B6 /* CustomButtonSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898FA102AE93ADC003AA2B6 /* CustomButtonSlider.swift */; };
+		A898FA132AE94203003AA2B6 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898FA122AE94203003AA2B6 /* ResultView.swift */; };
+		A898FA152AE9795C003AA2B6 /* Barometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898FA142AE9795C003AA2B6 /* Barometer.swift */; };
+		A898FA182AE97C66003AA2B6 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898FA172AE97C66003AA2B6 /* Ticker.swift */; };
+		A898FA1B2AE97D1A003AA2B6 /* BMICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898FA1A2AE97D1A003AA2B6 /* BMICalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A84771D02AE933BC0031E553 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		A86366E82AE82A62002D7F14 /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86366EB2AE82A62002D7F14 /* BMICalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorApp.swift; sourceTree = "<group>"; };
 		A86366ED2AE82A62002D7F14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,12 @@
 		A86367022AE82A63002D7F14 /* BMICalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMICalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86367062AE82A63002D7F14 /* BMICalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorUITests.swift; sourceTree = "<group>"; };
 		A86367082AE82A63002D7F14 /* BMICalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A87141F02AE90ED40065C218 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		A898FA102AE93ADC003AA2B6 /* CustomButtonSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonSlider.swift; sourceTree = "<group>"; };
+		A898FA122AE94203003AA2B6 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		A898FA142AE9795C003AA2B6 /* Barometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer.swift; sourceTree = "<group>"; };
+		A898FA172AE97C66003AA2B6 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		A898FA1A2AE97D1A003AA2B6 /* BMICalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,9 @@
 			children = (
 				A86366EB2AE82A62002D7F14 /* BMICalculatorApp.swift */,
 				A86366ED2AE82A62002D7F14 /* ContentView.swift */,
+				A898FA1C2AE97D64003AA2B6 /* Views */,
+				A898FA162AE97C44003AA2B6 /* Extension */,
+				A898FA192AE97CD9003AA2B6 /* Components */,
 				A86366EF2AE82A63002D7F14 /* Assets.xcassets */,
 				A86366F12AE82A63002D7F14 /* Preview Content */,
 			);
@@ -125,6 +142,34 @@
 				A86367082AE82A63002D7F14 /* BMICalculatorUITestsLaunchTests.swift */,
 			);
 			path = BMICalculatorUITests;
+			sourceTree = "<group>";
+		};
+		A898FA162AE97C44003AA2B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A84771D02AE933BC0031E553 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A898FA192AE97CD9003AA2B6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A87141F02AE90ED40065C218 /* CustomSlider.swift */,
+				A898FA102AE93ADC003AA2B6 /* CustomButtonSlider.swift */,
+				A898FA142AE9795C003AA2B6 /* Barometer.swift */,
+				A898FA172AE97C66003AA2B6 /* Ticker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A898FA1C2AE97D64003AA2B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A898FA1A2AE97D1A003AA2B6 /* BMICalculator.swift */,
+				A898FA122AE94203003AA2B6 /* ResultView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86366EE2AE82A62002D7F14 /* ContentView.swift in Sources */,
+				A898FA1B2AE97D1A003AA2B6 /* BMICalculator.swift in Sources */,
+				A898FA182AE97C66003AA2B6 /* Ticker.swift in Sources */,
+				A84771D12AE933BC0031E553 /* Color.swift in Sources */,
+				A898FA112AE93ADC003AA2B6 /* CustomButtonSlider.swift in Sources */,
+				A898FA132AE94203003AA2B6 /* ResultView.swift in Sources */,
+				A87141F12AE90ED40065C218 /* CustomSlider.swift in Sources */,
+				A898FA152AE9795C003AA2B6 /* Barometer.swift in Sources */,
 				A86366EC2AE82A62002D7F14 /* BMICalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
